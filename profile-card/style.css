@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+
+    font-size: 10px;
+}
+
+body{
+    background-color: #28223f;
+    color: #83b8cd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+section{
+    width: 32rem;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    box-shadow: 2px 4px 10px 4px #7c6700;
+}
+.personal{
+    background-color: #231e39;
+    padding: 2.5rem 0 1.5rem ;
+}
+
+.personal .beginner{
+    background-color: #febb0b;
+    color: #231e39;
+    border-radius: 0.2rem;
+    font-size: 1.4rem;
+    padding: 0.1rem,0.7rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+}
+
+.personal img{
+    width: 12rem;
+    height: 12rem;
+    display: block;
+    margin: auto;
+    border: 0.2rem solid #03bfcb;
+    border-radius: 50%;
+    
+}
+.personal .name{
+    margin-top: 1.3rem;
+    text-align: center;
+}
+.personal .country{
+    text-align: center;
+    padding: 0 0 0.5rem 0;
+    font-size: 1.3rem;
+    margin: 0.2rem;
+}
+.personal .stack{
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 2.5rem;
+}
+.personal button{
+    border: 1px solid #03bfcb;
+    padding: 0.8rem 1.8rem;
+    border-radius: 0.3rem;
+    font-size: 1.3rem;
+}
+.personal button:hover{
+    cursor: pointer;
+}
+
+.personal .buttons{
+    text-align: center;
+    margin: 1rem;
+}
+.personal button.primary{
+    background-color:#03bfcb;
+    color: #231e39;
+    margin-right: 0.5rem;
+}
+
+.personal button.secondary{
+    background-color: transparent;
+    color: #03bfcb;
+    margin-left: 0.5rem;
+    
+}
+.social{
+    text-align: center;
+}
+
+.social i{
+    font-size: 1.8rem;
+    padding: 0.5rem;
+}
+.fa-linkedin:hover{
+ color: #0A63BC;
+}
+.fa-twitter:hover{
+color: #60b8ff;
+}
+
+.fa-github:hover{
+color: #000000;
+}
+
+.fa-instagram:hover{
+color: #aa38c7;
+}
+.fa-youtube:hover{
+color: #f62d3a;
+}
+.skills{
+    background-color: #1f1a36;
+    padding: 1.6rem 1rem;
+}
+
+li{
+    list-style: none;
+}
+.skills h2{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.skills ul li{
+    display: inline-block;
+    font-size: 1.2rem;
+    border: 0.2rem solid #272240;
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+    margin: 0.2rem 0.1rem;
+}
